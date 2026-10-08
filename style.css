@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Thanh điều hướng */
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;      /* Hiển thị ngang hàng */
+    margin: 0 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Phần nội dung 3 cột */
+section {
+    margin-top: 20px;
+    max-width: 1000px;          /* Giới hạn chiều rộng tối đa */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: inline-block;      /* Các cột nằm ngang */
+    width: 30%;                 /* Mỗi cột chiếm khoảng 30% */
+    max-width: 300px;           /* Không vượt quá 300px */
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    vertical-align: top;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
